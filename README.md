@@ -7,17 +7,19 @@ Como tatuador profissional e estudante de tecnologia, desenvolvi este site para 
 
 # 🛠 Tecnologias Utilizadas
 
-HTML5 - Estrutura do site
+- HTML5 - Estrutura do site
 
-CSS3 - Estilização e responsividade
+- CSS3 - Estilização e responsividade
 
-JavaScript - Interatividade (futuramente)
+- JavaScript - Interatividade (futuramente)
 
-Font Awesome - Ícones
+- Font Awesome - Ícones
 
 # 🔄 Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
+
+```
 /
 |-- assets/
     |-- css/
@@ -29,23 +31,25 @@ O projeto está organizado da seguinte forma:
         |-- portfolio/
     |-- js/
         |-- script.js (futuro desenvolvimento)
-|-- index.html
+|-- index.html 
+```
+
 
 # 📝 Funcionalidades
 
-Apresentação do artista com imagem e descrição.
+- Apresentação do artista com imagem e descrição.
 
-Galeria de trabalhos com imagens e descrição de cada projeto.
+- Galeria de trabalhos com imagens e descrição de cada projeto.
 
-Botão para orçamentos via WhatsApp para facilitar a comunicação com clientes.
+- Botão para orçamentos via WhatsApp para facilitar a comunicação com clientes.
 
 # 🚀 Melhorias Futuras
 
-Implementação de JavaScript para animações e efeitos dinâmicos.
+- Implementação de JavaScript para animações e efeitos dinâmicos.
 
-Adição de uma seção de depoimentos de clientes.
+- Adição de uma seção de depoimentos de clientes.
 
-Otimização para SEO e acessibilidade.
+- Otimização para SEO e acessibilidade.
 
 # ✨ Como Contribuir
 
@@ -55,8 +59,9 @@ Se você tem sugestões ou deseja contribuir para a evolução deste projeto, fi
 
 Se quiser conhecer mais sobre meu trabalho ou entrar em contato para um projeto:
 
-Instagram
+- [LinkedIn](https://www.linkedin.com/in/kaiquegsantos)
+- [Instagram](https://www.instagram.com/kaiq_sotnas)
+- [GitHub](https://github.com/kaiqueSantosGit)
+- [WhatsApp](https://wa.me/5511945520244?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20seu%20trabalho.)
 
-WhatsApp
-- 
 Sinta-se à vontade para explorar e acompanhar as atualizações! 🌟
