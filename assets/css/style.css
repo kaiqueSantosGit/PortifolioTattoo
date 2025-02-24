@@ -1,0 +1,163 @@
+/* Reset e Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a1a; /* Fundo escuro para contraste */
+    color: #fff;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    padding: 1rem 0;
+}
+
+.navbar {
+    max-width: 12000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;  
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration:dotted;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.nav-links a:hover {
+    transform: translateY(-3px); /* Move para cima */
+}
+
+.nav-links a:active {
+    transform: translateY(1px); /* Afunda ao clicar */
+}
+
+/* Reset de margens e padding em elementos-chave */
+.hero, .hero-content, .hero-img, .hero-text {
+    margin: 0;
+    padding: 0;
+}
+
+/* Seção Hero */
+.hero {
+    padding: 100px 2rem 2rem; /* Compensa header fixo */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    display: flex; /* Flexbox para controle vertical */
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+}
+
+.rounded-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantém proporção sem distorcer */
+    object-position: left center; /* Foco no lado esquerdo da foto */
+
+    border: 0px solid #ffffff;
+    border-left-width: 0; /* Sem borda na esquerda */
+    border-radius:0 400px 0px 0;/* Curvas elípticas */
+    /* Efeito de profundidade */
+    box-shadow: 20px 0 40px rgba(53, 53, 53, 0.3);
+    transform: scale(1.35); /* Dá um "zoom" sutil */
+    margin-left: -250px; /* Ajuste fino para colagem total */
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Seção Orçamento */
+.orcamento {
+    padding: 4rem 2rem;
+    background: #2c2c2c;
+    text-align: center;
+}
+
+.whatsapp-btn {
+    background: #25D366; /* Cor do WhatsApp */
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.3s;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Seção Portfólio */
+.portfolio {
+    padding: 4rem 2rem;
+}
+
+.portfolio-grid {
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.item-overlay {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    transition: bottom 0.3s;
+}
+
+.portfolio-item:hover .item-overlay {
+    bottom: 0;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.05);
+}
